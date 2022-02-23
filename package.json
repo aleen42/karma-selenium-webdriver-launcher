@@ -1,6 +1,6 @@
 {
-  "name": "karma-selenium-webdriver-launcher",
-  "version": "0.0.4",
+  "name": "@aleen42/karma-selenium-webdriver-launcher",
+  "version": "1.0.0",
   "description": "A Karma plugin. Run tests in an instance of a Selenium Webdriver.",
   "main": "index.js",
   "scripts": {
@@ -16,23 +16,21 @@
     "browserstack",
     "browser-stack"
   ],
-  "dependencies": {
-    "q": "~0.9.6"
-  },
   "peerDependencies": {
-    "karma": ">=0.9",
-    "selenium-webdriver": "^2.44.0"
+    "karma": ">=6"
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-bump": "~0.0.7",
-    "grunt-npm": "~0.0.2",
-    "grunt-auto-release": "~0.0.2"
+    "eslint": "^7.4.0",
+    "eslint-config-aleen42": "^1.0.7"
   },
   "author": "PixnBits <github@pixnbits.org>",
   "contributors": [
     "Sebastian Krzyszkowiak (https://github.com/dos1)",
-    "Jason Marshall (https://github.com/jdmarshall)"
-  ]
+    "Jason Marshall (https://github.com/jdmarshall)",
+    "Aleen (https://github.com/aleen42)"
+  ],
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  }
 }
